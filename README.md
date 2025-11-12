@@ -37,7 +37,7 @@ PUT	/api/flights/	Update flight
 DELETE	/api/flights/<id>/	Delete flight
 POST	/api/savefile/	Upload file
 Example
-curl -X POST http://127.0.0.1:8000/api/flights/ \
+curl -X POST http://127.0.0.1:8000
  -H "Content-Type: application/json" \
  -d '{"flight_name":"AirIndia","starting_from":"BOM","destination":"DEL"}'
 
